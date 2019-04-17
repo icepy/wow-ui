@@ -1,0 +1,22 @@
+.button-common {
+  padding: 5px 15px 5px 15px;
+  font-size: 12px;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button-default {
+  background-color: #37261F;
+  color: #ffd36b;
+}
+
+.button-danger {
+  background-color: #9f1600;
+}
+
+.button-primary {
+  background-color: #f7b10a;
+}
