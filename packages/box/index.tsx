@@ -12,12 +12,12 @@ enum BoxType {
   inherited = "inherited"
 }
 
-export interface IBox extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
+export interface IProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
   type?: string;
   children?: Readonly<React.ReactNode>;
 }
 
-const Box = (props: IBox) => {
+const Box = (props: IProps) => {
   const {
     children,
     type = BoxType.rough,

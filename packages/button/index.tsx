@@ -8,13 +8,13 @@ enum ButtonType {
   danger = "danger"
 }
 
-export interface IButton extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {
+export interface IProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {
   type?: string;
   children?: Readonly<React.ReactNode>;
   onClick?: (ev: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
-const Button = (props: IButton) => {
+const Button = (props: IProps) => {
   const {
     children,
     type = ButtonType.default,
