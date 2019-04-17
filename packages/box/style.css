@@ -1,0 +1,46 @@
+.box-common{
+  width: 32px;
+  height: 32px;
+  font-size: 12px;
+  border-width: 1px;
+  border-style: solid;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-rough{
+  border-color: #B9B9B9;
+  color: #B9B9B9;
+}
+
+.box-ordinary{
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.box-excellent {
+  border-color: #3B6A3B;
+  color: #3B6A3B;
+}
+
+.box-sophisticated {
+  border-color: #39709D;
+  color: #39709D;
+}
+
+.box-epic {
+  border-color: #735186;
+  color:#735186;
+}
+
+.box-legend {
+  border-color: #8D7453;
+  color: #8D7453;
+}
+
+.box-inherited{
+  border-color: #979785;
+  color: #979785;
+}
