@@ -15,7 +15,6 @@ enum BoxType {
 
 export interface IProps extends IBaseProps<HTMLDivElement> {
   type?: string;
-  children?: Readonly<React.ReactNode>;
 }
 
 const Box: React.SFC<IProps> = (props: IProps) => {

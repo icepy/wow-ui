@@ -15,7 +15,6 @@ enum TitleLevel {
 
 export interface IProps extends IBaseProps<HTMLHRElement> {
   level?: number;
-  children?: Readonly<React.ReactNode>;
 }
 
 const Title: React.SFC<IProps> = (props: IProps) => {

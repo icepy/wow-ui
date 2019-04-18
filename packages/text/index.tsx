@@ -22,7 +22,6 @@ enum TextType {
 
 export interface IProps extends IBaseProps<HTMLSpanElement>{
   type?: string;
-  children?: React.ReactNode;
   disabled: boolean;
   underline: boolean;
   strong: boolean;
