@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Button, Box, Text } from "../lib";
+import { Button, Box, Text, Title } from "../lib";
 
 class App extends React.Component {
   render(){
@@ -49,6 +49,15 @@ class App extends React.Component {
           <p><Text type="demonHunter" underline>恶魔猎手</Text></p>
           <p><Text type="demonHunter" strong>恶魔猎手</Text></p>
           <p><Text type="demonHunter" mark>恶魔猎手</Text></p>
+        </div>
+        <h1>Title</h1>
+        <div className="title-container">
+          <Title>h1. wow-ui</Title>
+          <Title level={2}>h2. wow-ui</Title>
+          <Title level={3}>h3. wow-ui</Title>
+          <Title level={4}>h4. wow-ui</Title>
+          <Title level={5}>h5. wow-ui</Title>
+          <Title level={6}>h6. wow-ui</Title>
         </div>
       </>
     )
