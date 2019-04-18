@@ -1,7 +1,7 @@
 # wow-ui
 
 <div align="center">
-  <img src="https://icepy.me/cdn/assets/wow.jpg">
+  <img src="./game-logo-wow.png">
 </div>
 
 ![img](https://img.shields.io/github/license/icepy/wow-ui.svg) ![img](https://img.shields.io/github/last-commit/icepy/wow-ui.svg)
