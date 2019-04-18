@@ -1,6 +1,7 @@
 import * as React from "react";
 import classnames from "classnames";
 import styles from "./style.css";
+import { IBaseProps } from "../base";
 
 enum ButtonType {
   default = "default",
@@ -8,13 +9,13 @@ enum ButtonType {
   danger = "danger"
 }
 
-export interface IProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {
+export interface IProps extends IBaseProps<HTMLButtonElement> {
   type?: string;
   children?: Readonly<React.ReactNode>;
   onClick?: (ev: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
-const Button = (props: IProps) => {
+const Button: React.SFC<IProps> = (props: IProps) => {
   const {
     children,
     type = ButtonType.default,

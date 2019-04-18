@@ -1,6 +1,7 @@
 import * as React from "react";
 import styles from "./style.css";
 import classnames from "classnames";
+import { IBaseProps } from "../base";
 
 enum BoxType {
   rough = "rough",
@@ -12,12 +13,12 @@ enum BoxType {
   inherited = "inherited"
 }
 
-export interface IProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
+export interface IProps extends IBaseProps<HTMLDivElement> {
   type?: string;
   children?: Readonly<React.ReactNode>;
 }
 
-const Box = (props: IProps) => {
+const Box: React.SFC<IProps> = (props: IProps) => {
   const {
     children,
     type = BoxType.rough,

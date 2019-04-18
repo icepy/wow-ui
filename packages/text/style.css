@@ -1,0 +1,83 @@
+
+.text-container{
+  font-size: 12px;
+}
+
+.text-npc {
+  color: #b6b576;
+  background-color: #b6b576;
+}
+
+.text-default {
+  color: #c59696;
+}
+
+.text-warrior{
+  color: #5e4d40;
+}
+
+.text-rogue {
+  color: #e4db72;
+}
+
+.text-hunter {
+  color: #788a52;
+}
+
+.text-mage {
+  color: #5798b0
+}
+
+.text-warlock {
+  color: #8c33bd;
+}
+
+.text-priest {
+  color: #ffffff;
+}
+
+.text-druid {
+  color: #c36425;
+}
+
+.text-paladin {
+  color: #c1708f;
+}
+
+.text-shaman {
+  color: #145aa0;
+}
+
+.text-deathKnight {
+  color: #882b47;
+}
+
+.text-monk {
+  color: #2cb377;
+}
+
+.text-demonHunter {
+  color: #9232b2;
+  background-color: #9232b2;
+}
+
+.text-disabled {
+  cursor: not-allowed;
+  user-select: none;
+  opacity: 0.6;
+}
+
+.text-underline {
+  text-decoration: line-through;
+}
+
+.text-strong {
+  font-weight: 600;
+}
+
+.text-mark {
+  color: #ffffff !important;
+}
+.text-mark-bg {
+  background-color: transparent !important;
+}
